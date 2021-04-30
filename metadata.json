@@ -1,0 +1,1 @@
+{"clusterName":"cluster-mrig","clusterID":"af6b918b-095f-4d01-8290-df9c7d33e969","infraID":"cluster-mrig-pvz7f","aws":{"region":"us-east-2","identifier":[{"kubernetes.io/cluster/cluster-mrig-pvz7f":"owned"},{"openshiftClusterID":"af6b918b-095f-4d01-8290-df9c7d33e969"}]}}

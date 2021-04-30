@@ -1,0 +1,18 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "cluster-mrig-pvz7f" 
+    },
+    {
+      "ParameterKey": "VpcCidr", 
+      "ParameterValue": "10.0.0.0/16" 
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "subnet-05fd22f5998945536,subnet-0dc63f5ea39ec6565,subnet-0ac2cfdea0eb58901" 
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-04fb0b96068a1b05d" 
+    }
+  ]

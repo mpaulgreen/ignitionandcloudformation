@@ -1,0 +1,30 @@
+[
+    {
+      "ParameterKey": "ClusterName", 
+      "ParameterValue": "cluster-mrig" 
+    },
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "cluster-mrig-pvz7f" 
+    },
+    {
+      "ParameterKey": "HostedZoneId", 
+      "ParameterValue": "Z1017154P2Y3WPPYZPY1" 
+    },
+    {
+      "ParameterKey": "HostedZoneName", 
+      "ParameterValue": "mriganka.de" 
+    },
+    {
+      "ParameterKey": "PublicSubnets", 
+      "ParameterValue": "subnet-0ad29025617db80d0,subnet-0f761561b5350b1d0,subnet-0d38b0df9cab8045b" 
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "subnet-05fd22f5998945536,subnet-0dc63f5ea39ec6565,subnet-0ac2cfdea0eb58901" 
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-04fb0b96068a1b05d" 
+    }
+  ]

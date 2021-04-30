@@ -1,0 +1,50 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "cluster-mrig-pvz7f" 
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "ami-0c84b5c5255ec4777" 
+  },
+  {
+    "ParameterKey": "AllowedBootstrapSshCidr", 
+    "ParameterValue": "10.0.0.0/24" 
+  },
+  {
+    "ParameterKey": "PublicSubnet", 
+    "ParameterValue": "subnet-0ad29025617db80d0" 
+  },
+  {
+    "ParameterKey": "MasterSecurityGroupId", 
+    "ParameterValue": "sg-066be46453c3a6d3e" 
+  },
+  {
+    "ParameterKey": "VpcId", 
+    "ParameterValue": "vpc-04fb0b96068a1b05d" 
+  },
+  {
+    "ParameterKey": "BootstrapIgnitionLocation", 
+    "ParameterValue": "s3://cluster-mrig-infra/bootstrap.ign" 
+  },
+  {
+    "ParameterKey": "AutoRegisterELB", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+    "ParameterValue": "arn:aws:lambda:us-east-2:151817866775:function:cluster-dns-RegisterNlbIpTargets-U8ZG852KR8W9" 
+  },
+  {
+    "ParameterKey": "ExternalApiTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:151817866775:targetgroup/clust-Exter-JZ5R43TMVKRZ/41d865a9b3996cdc" 
+  },
+  {
+    "ParameterKey": "InternalApiTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:151817866775:targetgroup/clust-Inter-1P30XGO74VGK0/6047fa5995e29ef0" 
+  },
+  {
+    "ParameterKey": "InternalServiceTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:151817866775:targetgroup/clust-Inter-2TI333SPU4IR/8d5760874003823d" 
+  }
+]
